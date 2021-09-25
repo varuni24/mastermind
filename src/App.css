@@ -1,0 +1,142 @@
+:root {
+  --white: #FFFFFF;
+  --yellow: #FFD54F;
+  --orange: #FF7043;
+  --pink: #D81B60; 
+  --purple: #5E35B1;
+  --blue: #0D47A1;
+  --green: #006064;
+}
+
+/* Background Colors */
+.whiteBG {background-color: var(--white);}
+.yellowBG {background-color: var(--yellow);}
+.orangeBG {background-color: var(--orange);}
+.pinkBG {background-color: var(--pink);}
+.purpleBG {background-color: var(--purple);}
+.blueBG {background-color: var(--blue);}
+.greenBG {background-color: var(--green);}
+.redBG {background-color: red;}
+.blackBG{background-color: darkslategrey;}
+
+/* Font Colors */
+.whiteFont{ color: white}
+.blueFont{ color: blue !important}
+
+/* Font Sizes */
+.font8 {font-size: 8px; }
+.font12 {font-size: 12px; }
+.font16 {font-size: 16px; }
+.font20 {font-size: 20px; }
+.font24 {font-size: 24px; }
+
+/* Font Style */
+.bold {font-weight: bold; }
+.italic {font-style: italic; }
+
+/* FlexBox Styling */
+.flexDisplay {display: flex;}
+
+/* Flex Direction - Main direction of axis */
+.flexRow {display: flex; flex-direction: row;}
+.flexRowReverse {display: flex; flex-direction: row-reverse;}
+.flexColumn {display: flex; flex-direction: column;}
+.flexColumnReverse {display: flex; flex-direction: column-reverse;} 
+
+/* Flex Wrapping - Forced on single line or wrapped in multiple lines */
+.flexWrap {display: flex; flex-wrap: wrap;}
+.flexWrapReverse {display: flex; flex-wrap: wrap-reverse;}
+.flexNoWrap {display: flex; flex-wrap: nowrap;}
+
+/* Justify Content - Aligns items along main axis */
+.justifyStart {display: flex; justify-content:flex-start;}
+.justifyEnd {display: flex; justify-content:flex-end;}
+.justifyCenter {display: flex; justify-content:center;}
+.justifySpaceAround {display: flex; justify-content:space-around;}
+.justifySpaceBetween {display: flex; justify-content:space-between;}
+
+/* Align Items - Aligns items along cross axis */
+.alignStart {display: flex; align-items: flex-start;}
+.alignEnd {display: flex; align-items: flex-end;}
+.alignCenter {display: flex; align-items: center;}
+.alignBaseline {display: flex; align-items: baseline;}
+.alignStretch {display: flex; align-items: stretch;}
+
+
+.marginBottomSmall{ margin-bottom: 6px!important;}
+.marginBottomMedium{ margin-bottom: 9px !important;}
+.marginBottomLarge{ margin-bottom: 12px  !important;}
+
+.marginLeftSmall{ margin-left: 6px !important;}
+.marginLeftMedium{ margin-left: 9px !important;}
+.marginLeftLarge{ margin-left: 12px !important;}
+.marginLeftExtraLarge{ margin-left: 30px !important;}
+
+.marginRightSmall{ margin-right: 6px !important;}
+.marginRightMedium{ margin-right: 9px !important;}
+.marginRightLarge{ margin-right: 12px !important;}
+
+.marginTopSmall{ margin-top: 6px !important;}
+.marginTopMedium{ margin-top: 9px !important;}
+.marginTopLarge{ margin-top: 12px !important;}
+
+
+#circle {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  cursor: pointer !important;
+}
+
+#titlecircle{
+  width: 40px;
+  height: 60px;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+#pegCircle {
+  border-radius: 50%;
+  width: 10px !important;
+  height: 10px !important;
+  border: 1px solid black;
+  
+}
+
+.disabledCircle{
+  pointer-events: none;
+  opacity: 0.4;
+}
+
+.disabledButton{
+  pointer-events: none;
+  color: white !important;
+  background-color: lightgray !important;
+}
+
+.enabledButton{
+  opacity: 1;
+  color: white !important;
+  background-color: black !important;
+}
+
+.rowDiv{
+  padding: 10px !important;
+  width: fit-content;
+}
+
+.borderDiv{
+  border: 2px solid greenyellow !important;
+}
+
+.indicatorPegs{
+  width: 40px !important
+}
+
+.centerText{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
